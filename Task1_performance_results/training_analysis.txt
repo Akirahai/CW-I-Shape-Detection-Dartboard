@@ -1,0 +1,21 @@
+Training stages analysis
+========================
+
+Stage 0: 7 weak classifiers recorded
+  - Final TPR (HR): 1.000
+  - Final FPR (FA): 0.048
+  - TPR range: 1.000 to 1.000
+  - FPR range: 0.048 to 1.000
+
+Stage 1: 6 weak classifiers recorded
+  - Final TPR (HR): 1.000
+  - Final FPR (FA): 0.050
+  - TPR range: 1.000 to 1.000
+  - FPR range: 0.050 to 1.000
+
+Stage 2: 6 weak classifiers recorded
+  - Final TPR (HR): 1.000
+  - Final FPR (FA): 0.028
+  - TPR range: 1.000 to 1.000
+  - FPR range: 0.028 to 1.000
+

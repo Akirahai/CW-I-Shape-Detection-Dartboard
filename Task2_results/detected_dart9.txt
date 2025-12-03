@@ -1,0 +1,8 @@
+Image dart9 with 2 detected
+Ground Truth Count: 1
+TP: 1
+FP: 1
+FN: 0
+Precision: 0.5
+Recall: 1.0
+F1_score: 0.6666666666666666
