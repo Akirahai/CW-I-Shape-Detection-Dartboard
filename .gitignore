@@ -1,1 +1,4 @@
 dataset/*
+darknet/*
+yolov4.weights
+yolov4-tiny.conv.29
