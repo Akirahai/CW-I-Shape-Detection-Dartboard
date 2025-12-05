@@ -9,8 +9,8 @@ from glob import glob
 # ----------------------------
 POS_IMG = "dart.bmp"
 NEG_DIR = "negatives"
-OUT_IMG = "dataset/images"
-OUT_LABEL = "dataset/labels"
+OUT_IMG = "darknet/data/obj"
+OUT_LABEL = "darknet/data/obj"
 
 os.makedirs(OUT_IMG, exist_ok=True)
 os.makedirs(OUT_LABEL, exist_ok=True)

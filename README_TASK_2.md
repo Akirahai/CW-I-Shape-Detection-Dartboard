@@ -83,11 +83,11 @@ In this case, incorporating the HoughCircleDetector successfully removes non-cir
 | dart14  | 1.0000                | 0.2222      | 1.0000               | 0.0488     |
 | dart15  | 0.0000                | 0.0000      | 1.0000               | 0.6667     |
 
+**Table 1: Comparision on Recall and F1 metrics between Task 1 and Task 2**
 
-### Average Metrics
-
-- **Mean Recall (TPR):**: 0.4062
-- **Mean F1**: 0.2847
+- Average Metrics
+    - **Mean Recall (TPR):**: 0.4062
+    - **Mean F1**: 0.2847
 
 ### Key Advantages:
 - Reduces false positives by verifying circular structures using the Hough Transform.

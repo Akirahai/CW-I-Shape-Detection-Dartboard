@@ -1,5 +1,5 @@
 ################################################
-# COMS30068 - LeVietHai - Task1_dartboard_OOP.py
+# COMS30068 - LeVietHai - Task1_dartboard.py
 # University of Bristol
 ################################################
 
@@ -73,6 +73,7 @@ class DartboardPipeline:
             cv2.rectangle(frame, (int(x), int(y)), (int(x+w), int(y+h)), (0,0,255), 2)
 
         eval_dict = self.evaluator.evaluate(gt_boxes, detected)
+        # print(f"Evaluation for {image_root}: {eval_dict}")
 
         # Save results
         self.writer.save_image(image_root, frame)

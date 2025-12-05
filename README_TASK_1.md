@@ -104,9 +104,9 @@ After training, a file `cascade.xml` is obtained, can load in OpenCV for detecti
 
 **Table 1:** Evaluation Result of each image across the 16 images
 
-**Mean Recall (TPR):**: 0.5625
-
-**Mean F1:** 0.2113
+- Average Metrics
+    - **Mean Recall (TPR):**: 0.5625
+    - **Mean F1**: 0.2113
 
 **Performance Discuss**
 - The detector achieve full recall on 9 images, and mean recall across 16 images as 0.5625
